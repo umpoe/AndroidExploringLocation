@@ -1,0 +1,147 @@
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: relative;
+}
+.top-nav-name {
+    background-color: antiquewhite;
+    padding: 15px;
+    color: #fff;
+}
+
+.top-nav-name  ul {
+    list-style: none;
+
+}
+
+.top-nav-name  ul a {
+    display: inline-block;
+    color: dimgrey;
+    border: 1px solid dimgrey;
+    width: auto;
+    text-align: center;
+    padding: 2px 15px;
+    border-radius: 2px;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.top-nav-name  ul a:hover {
+    text-decoration: none;
+}
+
+#my-main-nav > li a:hover{
+   /* background-color: transparent;*/
+}
+#my-main-nav > li:hover{
+    background-color: transparent;
+    border-bottom: 3px solid orange;
+}
+#my-main-nav > li a:active{
+    background-color: transparent;
+    border-bottom: 3px solid orange;
+}
+#my-main-nav > li .active{
+    background-color: transparent;
+    border-bottom: 3px solid orange;
+}
+
+#my-main-nav > li a {
+        color: gray;
+}
+#price {
+    padding: 19px 10px 16px 10px;
+    border-radius: 0;
+}
+
+#intro {
+    overflow: hidden;
+}
+
+#intro-holder {
+   height: 570px;
+    overflow: hidden;
+}
+
+#myCarousel {
+    margin-top: 130px;
+    margin-bottom: 0;
+    box-shadow: 3px 3px 3px solid black;
+}
+
+
+#myJumbotron {
+    height: 300px;
+}
+
+.carousel-control {
+    height: 300px;
+    opacity: 0.4;
+}
+
+
+#intro-text {
+    background-color: #000;
+    color: #fff;
+    margin-top: -30px;
+    height: 256px;
+    min-height: 256px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 8px;
+    font-weight: lighter;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*font-family: 'typographpro';*/
+}
+#intro-text p {
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+
+
+#affordabilityCalculator {
+    background-color: #42DCA3;
+}
+
+
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+#my-main-with-links {
+    position: fixed;
+    margin-top: -56px;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+    height: 52px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#rentorBuy, #affordabilityCalculator, #amortizationCalculator {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.hide {
+    padding-top: 100px;
+}
+#angle {
+   
+    width: 60px;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 50%/50%;
+    transition: 2s all;
+}
+#angle:hover {
+  transform: scale(1.2);
+}

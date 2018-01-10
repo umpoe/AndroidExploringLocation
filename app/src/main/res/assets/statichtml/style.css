@@ -1,0 +1,13 @@
+*{
+	-webkit-touch-callout: none;
+	-moz-touch-callout: none;
+	-o-touch-callout: none;
+	-ms-touch-callout: none;
+	touch-callout: none;
+
+	-webkit-user-select: none;
+ 	-ms-user-select: none;
+ 	-o-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}

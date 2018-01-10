@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "332800114471",
+    "firebase_url": "https://immedia-a0806.firebaseio.com",
+    "project_id": "immedia-a0806",
+    "storage_bucket": "immedia-a0806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332800114471:android:c454311286fc223f",
+        "android_client_info": {
+          "package_name": "za.co.immedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332800114471-nfije8lo8kqasvlenoqpeaao4f7eb4md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "za.co.immedia",
+            "certificate_hash": "681e2a13d3a2aa05224606496240bb2263dff205"
+          }
+        },
+        {
+          "client_id": "332800114471-3pmvulr8nc86u7tmpmiq75h93514e844.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1B6dR7H4cfKZEw8i2ygWGwWiXahd7PQQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332800114471-3pmvulr8nc86u7tmpmiq75h93514e844.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

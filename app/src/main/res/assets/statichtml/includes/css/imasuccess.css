@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: relative;
+    
+}
+.panel-heading h4{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: red;
+    border: none;
+}
+
+
+
